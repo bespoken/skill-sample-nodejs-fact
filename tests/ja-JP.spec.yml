@@ -5,7 +5,7 @@ LaunchRequest:
   outputSpeech: "知ってましたか？ *"
   card.title: "日本語版豆知識"
   card.content: "*"
-  
+
 GetNewFactIntent:
   outputSpeech: "知ってましたか？ *"
   card.title: "日本語版豆知識"
