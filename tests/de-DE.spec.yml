@@ -1,0 +1,22 @@
+config:
+  locale: de-DE
+
+LaunchRequest:
+  outputSpeech: "Hier sind deine Fakten: *"
+  card.title: "Weltraumwissen auf Deutsch"
+  card.content: "*"
+
+GetNewFactIntent:
+  outputSpeech: "Hier sind deine Fakten: *"
+  card.title: "Weltraumwissen auf Deutsch"
+  card.content: "*"
+
+AMAZON.HelpIntent:
+  outputSpeech: "Du kannst sagen, „Nenne mir einen Fakt über den Weltraum“, oder du kannst „Beenden“ sagen... Wie kann ich dir helfen?"
+  reprompt: "Wie kann ich dir helfen?"
+
+AMAZON.CancelIntent:
+  outputSpeech: "Auf Wiedersehen!"
+
+AMAZON.StopIntent:
+  outputSpeech: "Auf Wiedersehen!"

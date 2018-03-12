@@ -1,0 +1,22 @@
+config:
+  locale: en-GB
+
+LaunchRequest:
+  outputSpeech: "Here's your fact: *"
+  card.title: "British Space Facts"
+  card.content: "*"
+
+"Get New Facts":
+  outputSpeech: "Here's your fact: *"
+  card.title: "British Space Facts"
+  card.content: "*"
+
+"Help":
+  outputSpeech: "You can say tell me a space fact, or, you can say exit... What can I help you with?"
+  reprompt: "What can I help you with?"
+
+"Cancel":
+  outputSpeech: "Goodbye!"
+
+"Stop":
+  outputSpeech: "Goodbye!"

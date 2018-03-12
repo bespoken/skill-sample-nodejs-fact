@@ -1,0 +1,22 @@
+config:
+  locale: ja-JP
+
+LaunchRequest:
+  outputSpeech: "知ってましたか？ *"
+  card.title: "日本語版豆知識"
+  card.content: "*"
+  
+GetNewFactIntent:
+  outputSpeech: "知ってましたか？ *"
+  card.title: "日本語版豆知識"
+  card.content: "*"
+
+AMAZON.HelpIntent:
+  outputSpeech: "豆知識を聞きたい時は「豆知識」と、終わりたい時は「おしまい」と言ってください。どうしますか？"
+  reprompt: "どうしますか？"
+
+AMAZON.CancelIntent:
+  outputSpeech: "さようなら"
+
+AMAZON.StopIntent:
+  outputSpeech: "さようなら"
